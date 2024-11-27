@@ -4,7 +4,7 @@ const AppHeader = () => {
   return(
     <header className="absolute w-max z-50 pt-7">
       <div className="container px-4 lg:px-36">
-        <AppNavigation svgColor={'white'} />
+        <AppNavigation color={'white'} />
       </div>
     </header>
   )

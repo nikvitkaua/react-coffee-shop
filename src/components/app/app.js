@@ -1,6 +1,7 @@
 import AppHeader from '../app-header/app-header'
 import AppPromo from "../app-promo/app-promo";
 import AppAbout from "../app-about/app-about";
+import AppFooter from "../app-footer/app-footer";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           repair day ladies now.
         </AppAbout>
       </main>
+      <AppFooter />
     </>
   )
 }
